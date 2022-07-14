@@ -1,4 +1,4 @@
-const APP_ID = '64fc95eff04f43b382d75b72274989de'
+const APP_ID = 'Your agora app id'
 const CHANNEL = sessionStorage.getItem('room')
 const TOKEN  = sessionStorage.getItem('token')
 let UID = Number(sessionStorage.getItem('UID'))

@@ -11,8 +11,8 @@ from .models import RoomMember
 from django.views.decorators.csrf import csrf_exempt
 
 def getToken(request):
-    appId = "64fc95eff04f43b382d75b72274989de"
-    appCertificate = "783faf63eb0a46389b89f089e8312cc4"
+    appId = "Your Agora appid"
+    appCertificate = "Your agora app certificate"
     channelName = request.GET.get('channel')
     uid = random.randint(1, 230)
     expirationTimeInSeconds = 3600
