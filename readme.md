@@ -8,6 +8,7 @@ A Group video calling application using the Agora Web SDK with a Django backend.
 #### 1 - Clone repo
 ```
 git clone 
+https://github.com/khRehman/GroupVideoChatApp_django_project
 ```
 
 #### 2 - Install requirements
